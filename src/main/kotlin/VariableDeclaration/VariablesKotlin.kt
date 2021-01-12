@@ -1,4 +1,4 @@
-package `2`.variabledeclaration
+package VariableDeclaration
 
 import kotlin.properties.Delegates
 

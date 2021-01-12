@@ -1,4 +1,4 @@
-package `1`.basic
+package Basic
 
 fun main(){
     println("Hello World")
