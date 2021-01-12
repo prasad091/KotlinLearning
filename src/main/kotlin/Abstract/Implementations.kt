@@ -15,4 +15,8 @@ class Other : Parent {
         get() = 'A'
 
     override fun f(): Int = 18
+
+    override fun d(): Char {
+        return super.d()
+    }
 }
