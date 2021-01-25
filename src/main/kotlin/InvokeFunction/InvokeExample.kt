@@ -1,5 +1,7 @@
 package InvokeFunction
 
+import java.io.Closeable
+
 class InvokeExample {
     fun addMember(name:String) = println(name)
 
@@ -16,3 +18,4 @@ fun main(){
         addMember("Prasad")
     }
 }
+
