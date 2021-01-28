@@ -13,8 +13,11 @@ class AsyncAwaitExampleKtTest{
     }
 
     @Test
-    fun doSomethingUsefulOne(){
-
+    fun `changefnfor data`(){
+        val changeFn = AsyncAwaitExample().changeFn()
+        Assert.assertEquals("Kotlin",changeFn)
     }
+
+
 
 }

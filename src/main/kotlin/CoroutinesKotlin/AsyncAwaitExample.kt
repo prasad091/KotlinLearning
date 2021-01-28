@@ -15,3 +15,10 @@ suspend fun doSomethingUsefulOne(): Int {
     delay(1000L) // pretend we are doing something useful here
     return 13
 }
+
+class AsyncAwaitExample {
+    fun changeFn():String{
+        return "Kotlin"
+    }
+
+}
